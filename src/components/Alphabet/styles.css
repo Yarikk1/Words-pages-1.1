@@ -1,0 +1,16 @@
+.Alphabet {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Alphabet__letter {
+  color: rgb(76, 104, 154);
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.Alphabet__letter:visited {
+  color: rgb(76, 104, 154);
+}

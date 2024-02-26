@@ -1,0 +1,16 @@
+.Menu {
+  position: relative;
+  text-decoration: none;
+  left: calc(50% - 60px);
+  right: 50%;
+  top: 50px;
+  font-size: 46px;
+  font-weight: 600;
+  background-color: burlywood;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.Menu:visited {
+  color: green;
+}

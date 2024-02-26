@@ -1,0 +1,15 @@
+.DisplayWord {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background-color: rgb(189, 107, 151);
+}
+
+.DisplayWord__word {
+  background-color: rgb(80, 165, 165);
+  padding: 25px;
+  border-radius: 15px;
+  color: white;
+}

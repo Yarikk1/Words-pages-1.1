@@ -1,0 +1,13 @@
+.WordsStartWith {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+h1 {
+  color: cadetblue;
+}
+
+p {
+  color: slateblue;
+}
