@@ -1,13 +1,14 @@
 import { useParams } from 'react-router-dom'
-import { DATA } from '../../Words/WordsPage'
+import { useSelector } from 'react-redux'
 
 import './styles.css'
 
 export function WordsStartWith() {
+  const data = useSelector((state) => state.words)
   const { letter } = useParams()
 
-  const words = DATA.filter((word) => word.startsWith(letter))
-  const wordsIn = DATA.filter((word) => word.includes(letter))
+  const words = data.data.filter((word) => word.startsWith(letter))
+  const wordsIn = data.data.filter((word) => word.includes(letter))
 
   return (
     <div className="WordsStartWith">

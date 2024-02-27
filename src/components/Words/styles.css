@@ -1,11 +1,11 @@
 .Words {
   display: grid;
   height: 100vh;
-  gap: 10px;
+  gap: 100px;
   grid-template-columns: repeat(3, 100px);
   justify-content: center;
   text-align: left;
-  place-items: center;
+  margin-top: 20px;
 }
 
 .Words__word {
@@ -23,4 +23,57 @@
 
 .Words__word:visited {
   color: darkorange;
+}
+
+.btn {
+  position: absolute;
+  left: 20%;
+  top: 6%;
+  border: none;
+  padding: 15px 25px;
+  background-color: rgb(238, 134, 134);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(101, 101, 226);
+  color: white;
+}
+
+.btns {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btns > button {
+  border: none;
+  padding: 5px 10px;
+  background-color: rgb(238, 134, 134);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btns > button:hover {
+  background-color: rgb(101, 101, 226);
+  color: white;
+}
+
+input {
+  width: 100px;
+  height: 50px;
+  background-color: darkcyan;
+  text-decoration: none;
+  color: yellow;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
 }
